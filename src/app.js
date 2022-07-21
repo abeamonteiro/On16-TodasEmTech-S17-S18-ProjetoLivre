@@ -35,7 +35,6 @@ app.use(function (request, response, next) {
 })
 
 app.use(express.json())
-
 app.use("/", index);
 app.use("/candidatas", candidatas);
 app.use("/empresas", empresas);
